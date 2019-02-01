@@ -1,0 +1,15 @@
+.boutton {
+   float:right;
+   }
+ a.bouton1 {
+padding: 10px 30px; 
+background: red; 
+color: white; 
+}
+
+
+ a.bouton2 {
+padding: 10px 30px; 
+background: #399CCF; 
+color: white; 
+}

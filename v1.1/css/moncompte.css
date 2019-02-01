@@ -1,0 +1,85 @@
+/* Mon compte */
+
+body.moncompte
+ {
+ background: url( '../img/backgroud-account.jpg') no-repeat center top;
+ text-align: center;
+ background-attachment: relative;
+ background-position: center center;
+ width: 100%;
+
+
+ -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+            
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+      
+
+.bton  {
+
+ 
+    display: block;
+
+    padding-left: 10px
+
+    background: #399CCF;
+
+     top: 50%;
+transform: translateY(-50%);
+position: relative;
+
+}
+
+
+
+
+
+.btn.buttonmoncompte{  
+
+
+    border: solid 2px #399CCF;
+
+    width: 350px;
+
+    height: 120px;
+
+    background: #399CCF; 
+
+    border-radius: 25px;
+
+    padding: 10px;
+
+    display: block;
+
+   /* margin-left: 20px;
+
+    margin-right: auto;*/
+
+
+}  
+
+a.btn-link:hover{
+	text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 992px){.btn.buttonmoncompte{  
+
+
+    width: 200px;
+
+    height: 60px;
+
+   margin-left: auto;
+
+    margin-right: auto;
+}  }

@@ -1,0 +1,60 @@
+input.form-control{
+	display: inline-block;
+}
+
+.correct {
+
+    border-color: rgba(57,156,207);
+
+}
+
+    
+
+.correct:focus {
+
+    border-color: rgba(57,156,207);
+
+    box-shadow: 0 0 8px rgba(219,219,219);
+
+}
+
+    
+
+.incorrect {
+
+    border-color: rgba(57,156,207);
+
+}
+
+    
+
+.incorrect:focus {
+
+    border-color: rgba(57,156,207);
+
+    box-shadow: 0 0 8px rgba(219,219,219);
+
+}
+
+    
+
+.tooltipcheck {
+
+    display:none;
+
+    position:absolute;
+
+    width:100%;
+
+    margin-left: 20px;
+
+    padding: 8px;
+
+    border: 2px solid #399CCF;
+
+    background-color: #FFFFFF;
+
+    border-radius: 4px;
+
+
+}

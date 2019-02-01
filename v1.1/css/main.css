@@ -1,0 +1,141 @@
+html, body{
+	height: 100%;
+}
+
+
+/* Theme Simstudio */
+a,
+.text-primary{
+	color: #399CCF;
+}
+a:hover{
+	color: #338cba;
+}
+input.form-control[type=text],
+input.form-control[type=email],
+input.form-control[type=password],
+textarea.form-control{
+	border: solid 2px #399CCF;
+	border-radius: 8px;
+}
+.btn{
+	border-radius: 50px;
+	font-size: 20px;
+	padding: .75rem 2.5rem;
+}
+a.btn-primary,
+.btn.btn-primary[type=submit],
+.btn.btn-primary[type=button]{
+	background-color: #399CCF;
+	color: #fff;
+	border: none;
+}
+.btn.btn-gradient-primary{
+	border: none;
+	color: #fff;
+	background: linear-gradient(to right, #90cded 0%,#399cd0 100%);
+}
+a.btn-primary:hover,
+.btn.btn-primary[type=submit]:hover,
+.btn.btn-primary[type=button]:hover,
+a.btn-primary:focus,
+.btn.btn-primary[type=submit]:focus,
+.btn.btn-primary[type=button]:focus{
+	background-color: #338cba;
+}
+.btn-outline-primary{
+	border: solid 2px #399CCF;
+	background-color: transparent;
+	color: #399CCF;
+	border-radius: 50px;
+	transition: all 0.1s ease;
+}
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus{
+	border: solid 2px #399CCF;
+	background-color: #399CCF;
+	color: #fff;
+	text-decoration: none;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+/* Header */
+header{
+	height: 100px;
+	background-color: #399CCF;
+	color: #fff;
+	border-bottom: solid 4px rgba(100, 100, 100, .5);
+}
+header .container{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+header a,
+header a:hover{
+	color: #fff;
+}
+
+.logo img{
+	height: 80px;
+}
+
+.nav-user{
+	float: right;
+	display: flex;
+	align-items: center;
+	height: 80px;
+}
+.nav-user a{
+	padding: 0 30px;
+}
+
+.nav-user a.nav-item img{
+	height: 60px;
+}
+
+/* Contenu */
+main{
+	flex: 1;
+}
+
+/* Footer */
+footer ul.footer-links{
+	list-style-type: none;
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+}
+footer ul.footer-links li{
+	margin: 0 40px;
+}
+
+/* Page 404 */
+.not-found h1{
+	font-size: 20rem;
+	color: #333;
+	text-shadow: 0 4px 0 #DBDBDB;
+}
+.not-found h2{
+	font-size: 3rem;
+	color: #444;
+	text-shadow: 0 2px 0 #DBDBDB;
+}
+
+/* Connexion */
+.form-login [type=button],
+.form-login [type=submit]{
+	background: linear-gradient(to right, #90cded 0%,#399cd0 100%);
+}
+
+.btn-register,
+.btn-login{
+	width: 260px;
+}
+
+/* Inscription */
+
+

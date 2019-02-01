@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="150" viewBox="0 0 228 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="trait_1" data-name="trait 1" class="cls-1" d="M130,52c62.408,0,113,33.131,113,74s-50.592,74-113,74S17,166.869,17,126,67.592,52,130,52ZM20.09,133.567l0.193-3.021,219.625,2.266-0.192,2.265Zm0-24.17,0.193-3.021,219.625,2.266-0.192,2.265Z" transform="translate(-16 -51)"/>
+</svg>

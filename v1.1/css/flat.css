@@ -1,0 +1,5 @@
+/* Connexion */
+.form-login [type=button],
+.form-login [type=submit]{
+	background: #399CCF;
+}
